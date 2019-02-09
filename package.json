@@ -1,6 +1,6 @@
 {
 	"name": "@hoishin/eslint-config-ts",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "ESLint config for TypeScript projects",
 	"repository": "https://github.com/Hoishin/eslintrc-ts.git",
 	"license": "MIT",
