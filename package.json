@@ -10,7 +10,7 @@
 	],
 	"main": "lib/index.js",
 	"scripts": {
-		"test": "eslint \"test/**/*.ts\""
+		"test": "eslint --ext .ts test"
 	},
 	"husky": {
 		"hooks": {
