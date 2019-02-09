@@ -1,5 +1,5 @@
 {
-	"name": "eslintrc-ts",
+	"name": "@hoishin/eslintrc-ts",
 	"version": "0.0.0",
 	"description": "ESLint config for TypeScript projects",
 	"repository": "https://github.com/Hoishin/eslintrc-ts.git",
@@ -47,5 +47,8 @@
 	},
 	"peerDependencies": {
 		"typescript": "^3.3.3"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
