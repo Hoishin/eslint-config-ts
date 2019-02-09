@@ -1,0 +1,4 @@
+{
+	"extends": "@hoishin/tsconfig",
+	"include": ["test/**/*.ts"]
+}
