@@ -6,7 +6,7 @@ interface User {
 	fuga: string;
 }
 
-export const hoge = (users: User[]) => {
+export const hoge = (users: User[]): void => {
 	fs.writeFile(
 		path.resolve(__dirname, '../tmp'),
 		JSON.stringify(users.map((user) => user.hoge)),
