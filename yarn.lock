@@ -18,7 +18,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@hoishin/prettierrc@^2.1.0":
+"@hoishin/prettierrc@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@hoishin/prettierrc/-/prettierrc-2.1.1.tgz#adebd54c4968842689b51f9fc1a981ba3a57adad"
   integrity sha512-E4MT/dLaRhS8zEBZwFNIOd7OB24npiizdEh0ISogQZh9Ldw4zFnWtpOt3hXt/ruKM9eG/N56mj5dF4cQW+jhsw==
