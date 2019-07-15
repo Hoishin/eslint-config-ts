@@ -11,7 +11,7 @@ export const hoge = (users: User[]): void => {
 		path.resolve(__dirname, '../tmp'),
 		JSON.stringify(users.map((user) => user.hoge)),
 		(err) => {
-			if (err) {
+			if (err !== null) {
 				console.error(err); // eslint-disable-line no-console
 			}
 		},

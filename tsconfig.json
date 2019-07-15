@@ -1,4 +1,3 @@
 {
-	"extends": "@hoishin/tsconfig",
-	"include": ["test/**/*.ts"]
+	"extends": "@hoishin/tsconfig"
 }
