@@ -5,7 +5,8 @@ module.exports = {
 		'import/no-self-import': 2,
 		'import/no-cycle': 2,
 		'import/no-useless-path-segments': 2,
-		'import/no-unused-modules': [2, {unusedExports: true}],
+		// No files matching '...' were found.
+		// 'import/no-unused-modules': [2, {unusedExports: true}],
 		'import/export': 2,
 		'import/no-deprecated': 2,
 		'import/first': 2,
