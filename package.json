@@ -45,8 +45,7 @@
 		"eslint-plugin-prettier": "3.1.0",
 		"eslint-plugin-react": "7.14.2",
 		"eslint-plugin-react-hooks": "1.6.1",
-		"eslint-plugin-unicorn": "9.1.1",
-		"prettier": "1.18.2"
+		"eslint-plugin-unicorn": "9.1.1"
 	},
 	"devDependencies": {
 		"@hoishin/prettierrc": "^2.1.1",
@@ -56,11 +55,13 @@
 		"eslint": "^5.16.0",
 		"husky": "^3.0.0",
 		"lint-staged": "^9.2.0",
+		"prettier": "1.18.2",
 		"sort-package-json": "^1.22.1",
 		"typescript": "3.5.3"
 	},
 	"peerDependencies": {
-		"eslint": "^5.16.0"
+		"eslint": "^5.16.0",
+		"prettier": "*"
 	},
 	"publishConfig": {
 		"access": "public"
