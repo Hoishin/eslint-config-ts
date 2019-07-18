@@ -1,8 +1,8 @@
 {
-	"name": "@hoishin/eslint-config-ts",
+	"name": "@hoishin/eslint-config",
 	"version": "0.0.5",
 	"description": "ESLint config for TypeScript projects",
-	"repository": "https://github.com/Hoishin/eslintrc-ts.git",
+	"repository": "https://github.com/Hoishin/eslint-config.git",
 	"license": "MIT",
 	"author": {
 		"name": "Keiichiro Amemiya",
