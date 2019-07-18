@@ -6,6 +6,6 @@ module.exports = {
 	extends: ['plugin:react/recommended', 'prettier/react'],
 	rules: {
 		'react-hooks/rules-of-hooks': 2,
-		'react-hooks/exhausitive-deps': 2,
+		'react-hooks/exhaustive-deps': 2,
 	},
 };
