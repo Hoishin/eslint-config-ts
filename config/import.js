@@ -14,6 +14,7 @@ module.exports = {
 		'import/extensions': 2,
 		'import/order': [2, {'newlines-between': 'always'}],
 		'import/newline-after-import': 2,
+		'sort-imports': 0,
 		'import/no-anonymous-default-export': 2,
 	},
 };
