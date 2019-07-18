@@ -6,7 +6,7 @@ module.exports = {
 	plugins: ['import', '@typescript-eslint'],
 	extends: ['plugin:import/typescript', 'prettier/@typescript-eslint'],
 	rules: {
-		'no-def': 0,
+		'no-undef': 0,
 		'@typescript-eslint/adjacent-overload-signatures': 2,
 		'@typescript-eslint/array-type': 2,
 		'@typescript-eslint/await-thenable': 2,
