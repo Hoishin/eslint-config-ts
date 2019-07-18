@@ -7,6 +7,8 @@ module.exports = {
 	extends: ['plugin:import/typescript', 'prettier/@typescript-eslint'],
 	rules: {
 		'no-undef': 0,
+		'react/prop-types': 0,
+
 		'@typescript-eslint/adjacent-overload-signatures': 2,
 		'@typescript-eslint/array-type': 2,
 		'@typescript-eslint/await-thenable': 2,
@@ -32,6 +34,7 @@ module.exports = {
 		'@typescript-eslint/no-this-alias': 2,
 		'@typescript-eslint/no-unnecessary-qualifier': 2,
 		'@typescript-eslint/no-unnecessary-type-assertion': 2,
+		'no-unused-vars': 0,
 		'@typescript-eslint/no-unused-vars': 2,
 		'@typescript-eslint/no-use-before-define': 2,
 		'@typescript-eslint/no-useless-constructor': 2,
