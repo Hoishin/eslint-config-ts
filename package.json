@@ -51,7 +51,7 @@
 		"@hoishin/prettierrc": "^2.1.1",
 		"@hoishin/tsconfig": "^2.0.0",
 		"@types/eslint": "^4.16.6",
-		"@types/node": "^10.14.13",
+		"@types/node": "^10.14.14",
 		"eslint": "^5.16.0",
 		"husky": "^3.0.2",
 		"lint-staged": "^9.2.1",
