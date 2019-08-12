@@ -13,7 +13,7 @@ module.exports = {
 		'@typescript-eslint/array-type': 2,
 		'@typescript-eslint/await-thenable': 2,
 		'@typescript-eslint/ban-ts-ignore': 2,
-		camelcase: 2,
+		camelcase: 0,
 		'@typescript-eslint/camelcase': 2,
 		'@typescript-eslint/class-name-casing': 2,
 		'@typescript-eslint/consistent-type-definitions': [2, 'interface'],
