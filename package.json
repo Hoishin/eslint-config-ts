@@ -53,7 +53,7 @@
 		"@types/eslint": "^4.16.8",
 		"@types/node": "^10.14.17",
 		"eslint": "^5.16.0",
-		"husky": "^3.0.4",
+		"husky": "^3.0.5",
 		"lint-staged": "^9.2.5",
 		"prettier": "1.18.2",
 		"sort-package-json": "^1.22.1",
