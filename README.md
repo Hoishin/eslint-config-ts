@@ -1,3 +1,3 @@
-# eslintrc-ts
+# eslint-config-hoishin
 
-ESLint config for TypeScript projects
+Collection of various eslint configuration for Hoishin's projects.
