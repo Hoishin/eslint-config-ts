@@ -8,7 +8,7 @@ module.exports = {
 		'./config/eslint.js',
 		'./config/import.js',
 		'./config/unicorn.js',
-		'plugin:prettier/recommended',
+		'prettier',
 		'prettier/unicorn',
 	],
 	rules: {
