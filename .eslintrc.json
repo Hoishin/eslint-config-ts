@@ -1,4 +1,21 @@
 {
-	"extends": "./index.js",
-	"env": {"node": true}
+	"extends": ["./index.js"],
+	"env": {"node": true},
+	"rules": {
+		"import/no-unused-modules": 0
+	},
+	"overrides": [
+		{
+			"files": "./test/ts.ts",
+			"extends": ["./typescript.js"]
+		},
+		{
+			"files": "./test/react.js",
+			"extends": ["./react.js"]
+		},
+		{
+			"files": "./test/react.tsx",
+			"extends": ["./react.js", "./typescript.js"]
+		}
+	]
 }
