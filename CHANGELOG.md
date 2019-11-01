@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.4...v0.2.5) (2019-11-01)
+
+### Bug Fixes
+
+-   **deps:** update typescript-eslint monorepo to v2.6.0 ([#92](https://github.com/Hoishin/eslint-config-hoishin/issues/92)) ([df79f54](https://github.com/Hoishin/eslint-config-hoishin/commit/df79f54bedbac626051f5ca48e6e28b4978aeb18))
+-   update rules ([18de044](https://github.com/Hoishin/eslint-config-hoishin/commit/18de044f6ae3185795a64c376afff0e5ad1adf2e))
+
 ### [0.2.4](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.3...v0.2.4) (2019-10-27)
 
 ### [0.2.2](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.1...v0.2.2) (2019-10-26)
