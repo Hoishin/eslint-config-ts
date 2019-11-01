@@ -57,6 +57,7 @@
 		"@types/eslint": "^6.1.2",
 		"@types/node": "^10.14.22",
 		"@types/react": "^16.9.11",
+		"del": "^5.1.0",
 		"eslint": "^6.5.1",
 		"eslint-find-rules": "^3.4.0",
 		"husky": "^3.0.9",

@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
+import del from 'del';
+
+console.log(del);
+
 interface User {
 	hoge: string;
 	fuga: string;

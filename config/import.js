@@ -15,7 +15,7 @@ module.exports = {
 		'import/default': 2,
 		'import/dynamic-import-chunkname': 0,
 		'import/exports-last': 0,
-		'import/group-exports': 2,
+		'import/group-exports': 0,
 		'import/max-dependencies': 0,
 		'import/named': 2,
 		'import/namespace': 2,

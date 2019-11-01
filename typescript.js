@@ -12,5 +12,6 @@ module.exports = {
 		'no-undef': 0,
 		'react/prop-types': 0,
 		'import/no-unused-modules': 0,
+		'import/default': 0,
 	},
 };
