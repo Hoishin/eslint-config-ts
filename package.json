@@ -67,7 +67,7 @@
 		"react": "^16.11.0",
 		"sort-package-json": "^1.22.1",
 		"standard-version": "^7.0.0",
-		"typescript": "3.6.4"
+		"typescript": "3.7.2"
 	},
 	"peerDependencies": {
 		"eslint": "^6.5.1"
