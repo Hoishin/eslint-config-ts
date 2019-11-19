@@ -49,7 +49,7 @@
 		"eslint-plugin-prefer-arrow": "^1.1.6",
 		"eslint-plugin-react": "^7.15.1",
 		"eslint-plugin-react-hooks": "^2.1.2",
-		"eslint-plugin-unicorn": "^12.1.0"
+		"eslint-plugin-unicorn": "^13.0.0"
 	},
 	"devDependencies": {
 		"@hoishin/prettierrc": "^2.1.1",
