@@ -204,5 +204,10 @@ module.exports = {
 		'sort-vars': 0,
 		'spaced-comment': 0,
 		'symbol-description': 2,
+		'grouped-accessor-pairs': 2,
+		'no-constructor-return': 2,
+		'no-dupe-else-if': 2,
+		'no-setter-return': 2,
+		'prefer-exponentiation-operator': 2,
 	},
 };
