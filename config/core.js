@@ -14,6 +14,7 @@ module.exports = {
 		'constructor-super': 2,
 		curly: 0,
 		'default-case': 2,
+		'default-case-last': 2,
 		'default-param-last': 2,
 		'dot-location': 0,
 		'dot-notation': 0,
@@ -209,5 +210,8 @@ module.exports = {
 		'no-dupe-else-if': 2,
 		'no-setter-return': 2,
 		'prefer-exponentiation-operator': 2,
+		'no-loss-of-precision': 2,
+		'no-restricted-exports': 0,
+		'no-useless-backreference': 0,
 	},
 };
