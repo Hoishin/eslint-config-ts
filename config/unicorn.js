@@ -21,7 +21,6 @@ module.exports = {
 		'unicorn/number-literal-case': 2,
 		'unicorn/prefer-add-event-listener': 2,
 		'unicorn/prefer-event-key': 2,
-		'unicorn/prefer-exponentiation-operator': 2,
 		'unicorn/prefer-flat-map': 2,
 		'unicorn/prefer-includes': 2,
 		'unicorn/prefer-node-append': 2,

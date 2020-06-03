@@ -16,7 +16,7 @@
 	],
 	"scripts": {
 		"ensure-no-unsued:index": "eslint-find-rules -u index.js",
-		"ensure-no-unsued:typescript": "eslint-find-rules -u typescript.js",
+		"ensure-no-unsued:typescript": "eslint-find-rules -u typescript.js --no-core",
 		"lint": "eslint --ext=.js,.ts,.tsx .",
 		"release": "npm test && standard-version",
 		"test": "run-s lint ensure-no-unsued:*"
