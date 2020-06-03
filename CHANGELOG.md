@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.6...v0.3.0) (2020-06-03)
+
+### ⚠ BREAKING CHANGES
+
+-   **deps:** update eslint to 7, rules are changed
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Keiichiro Amemiya <hoishinxii@gmail.com>
+
+### Bug Fixes
+
+-   **deps:** update dependency eslint-config-prettier to v6.10.0 ([#131](https://github.com/Hoishin/eslint-config-hoishin/issues/131)) ([2edaac9](https://github.com/Hoishin/eslint-config-hoishin/commit/2edaac9894f6ca74b302aab7ea8e6c5c1cc7bb39))
+-   **deps:** update dependency eslint-config-prettier to v6.10.1 ([#150](https://github.com/Hoishin/eslint-config-hoishin/issues/150)) ([8738694](https://github.com/Hoishin/eslint-config-hoishin/commit/8738694b3e98538f0f2af61ae4e8f24a904fc156))
+-   **deps:** update dependency eslint-plugin-import to v2.20.1 ([#126](https://github.com/Hoishin/eslint-config-hoishin/issues/126)) ([e0f2b68](https://github.com/Hoishin/eslint-config-hoishin/commit/e0f2b6848bd860670c895bb0a0a7d280e60abbd6))
+-   **deps:** update dependency eslint-plugin-import to v2.20.2 ([#154](https://github.com/Hoishin/eslint-config-hoishin/issues/154)) ([55e4a63](https://github.com/Hoishin/eslint-config-hoishin/commit/55e4a636eda4341f836d4ed855478da8faa7d9fa))
+-   **deps:** update dependency eslint-plugin-react to v7.18.3 ([#133](https://github.com/Hoishin/eslint-config-hoishin/issues/133)) ([1465428](https://github.com/Hoishin/eslint-config-hoishin/commit/1465428f80b1e5df267cb62ae832bf233fde0e98))
+-   **deps:** update dependency eslint-plugin-react to v7.19.0 ([#144](https://github.com/Hoishin/eslint-config-hoishin/issues/144)) ([ec4b3cd](https://github.com/Hoishin/eslint-config-hoishin/commit/ec4b3cd2adc8b7c7dfa1415b4076550576afcb39))
+-   **deps:** update dependency eslint-plugin-react to v7.20.0 ([#175](https://github.com/Hoishin/eslint-config-hoishin/issues/175)) ([c15b0ad](https://github.com/Hoishin/eslint-config-hoishin/commit/c15b0ad7d583281d7923d99c62d1757abe014f41))
+-   **deps:** update dependency eslint-plugin-react-hooks to v3 ([#153](https://github.com/Hoishin/eslint-config-hoishin/issues/153)) ([b2ebdb9](https://github.com/Hoishin/eslint-config-hoishin/commit/b2ebdb9879f31dd4c3b031acd0ac7d0181906538))
+-   **deps:** update eslint and related dependencies ([ac15817](https://github.com/Hoishin/eslint-config-hoishin/commit/ac15817fec27ccd017e56aa436fe97719c6b46c6))
+-   **deps:** update react monorepo ([#141](https://github.com/Hoishin/eslint-config-hoishin/issues/141)) ([b9595b9](https://github.com/Hoishin/eslint-config-hoishin/commit/b9595b9d69a6439ff187d6552496ef2407c73e21))
+
 ### [0.2.6](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.5...v0.2.6) (2020-02-20)
 
 ### Features
