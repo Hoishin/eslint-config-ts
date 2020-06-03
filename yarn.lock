@@ -1053,9 +1053,9 @@ eslint-plugin-import@^2.18.2:
     resolve "^1.12.0"
 
 eslint-plugin-prefer-arrow@^1.1.6:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.1.7.tgz#4534dd8d2e519cd579a951f95802137365d524a2"
-  integrity sha512-epsA4g804mRovlOHSbeO1xxW7REGeUjULRME9MJTJDOVscNIA01AkR66TP4cmHDfD+w72EQ9cPhf37MbZiFI2w==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.1.tgz#9e2943cdae4476e41f94f50dd7a250f267db6865"
+  integrity sha512-CPAvdTGG0YbFAJrUKdRBrOJ0X1I7jTtF5VIM4m2Bw1/A2jrhfUeUAcPy4pAEB5DNaUuDqc59f3pKTeiVeamS1A==
 
 eslint-plugin-react-hooks@^3.0.0:
   version "3.0.0"
