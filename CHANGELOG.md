@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.3.0...v0.4.0) (2020-11-13)
+
+### ⚠ BREAKING CHANGES
+
+-   **deps:** added new rules
+
+### Features
+
+-   **deps:** update eslint and typescript-eslint ([6f84e5e](https://github.com/Hoishin/eslint-config-hoishin/commit/6f84e5eae851660303f4c8516471310e629f6b56))
+
 ## [0.3.0](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.2.6...v0.3.0) (2020-06-03)
 
 ### ⚠ BREAKING CHANGES
