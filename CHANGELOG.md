@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.4.0...v0.4.1) (2020-11-13)
+
+### Bug Fixes
+
+-   **typescript:** disable import/no-unresolved in typescript config ([7c414e8](https://github.com/Hoishin/eslint-config-hoishin/commit/7c414e8c615129db8242d94dbe93c7852273e6c6))
+
 ## [0.4.0](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.3.0...v0.4.0) (2020-11-13)
 
 ### ⚠ BREAKING CHANGES
