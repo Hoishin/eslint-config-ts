@@ -7,4 +7,9 @@ module.exports = {
 	parserOptions: {
 		ecmaFeatures: {jsx: true},
 	},
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 };

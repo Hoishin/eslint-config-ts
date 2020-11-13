@@ -1,21 +1,25 @@
 {
-	"extends": ["./index.js"],
 	"env": {"node": true},
-	"rules": {
-		"import/no-unused-modules": 0
-	},
+	"extends": ".",
+	"rules": {"import/no-unused-modules": 0},
 	"overrides": [
 		{
 			"files": "./test/ts.ts",
-			"extends": ["./typescript.js"]
+			"extends": ["./typescript"],
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			}
 		},
 		{
 			"files": "./test/react.js",
-			"extends": ["./react.js"]
+			"extends": ["./react"]
 		},
 		{
 			"files": "./test/react.tsx",
-			"extends": ["./react.js", "./typescript.js"]
+			"extends": ["./react", "./typescript"],
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			}
 		}
 	]
 }

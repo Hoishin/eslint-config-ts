@@ -4,13 +4,9 @@ module.exports = {
 		'plugin:import/typescript',
 		'prettier/@typescript-eslint',
 	],
-	parserOptions: {
-		project: './tsconfig.json',
-	},
 	rules: {
-		'no-undef': 0,
-		'react/prop-types': 0,
-		'import/no-unused-modules': 0,
-		'import/default': 0,
+		'no-undef': 0, // TypeScript has it's own way to detect undefined variables
+		'react/prop-types': 0, // TypeScript does this job
+		'import/default': 0, // Conflicts with TypeScript esModuleInterop
 	},
 };

@@ -16,9 +16,11 @@
 	],
 	"scripts": {
 		"ensure-no-unsued:index": "eslint-find-rules -u index.js",
-		"ensure-no-unsued:typescript": "eslint-find-rules -u typescript.js --no-core",
+		"ensure-no-unsued:react": "eslint-find-rules -u index.js react.js",
+		"ensure-no-unsued:typescript": "eslint-find-rules -u index.js typescript.js",
+		"format": "prettier --write \"**/*.{js,json,yml,md}\"",
 		"lint": "eslint --ext=.js,.ts,.tsx .",
-		"release": "npm test && standard-version",
+		"release": "standard-version",
 		"test": "run-s lint ensure-no-unsued:*"
 	},
 	"husky": {
@@ -31,39 +33,40 @@
 			"eslint --fix",
 			"prettier --write"
 		],
-		"*.{json,md,yml,yaml}": [
+		"*.{json,md,yml}": [
 			"prettier --write"
 		],
 		"package.json": [
 			"sort-package-json"
 		]
 	},
+	"prettier": "@hoishin/prettierrc",
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^3.1.0",
-		"@typescript-eslint/parser": "^3.1.0",
-		"eslint-config-prettier": "^6.11.0",
-		"eslint-plugin-import": "^2.20.2",
-		"eslint-plugin-prefer-arrow": "^1.2.1",
-		"eslint-plugin-react": "^7.20.0",
-		"eslint-plugin-react-hooks": "^4.0.4",
-		"eslint-plugin-unicorn": "^20.1.0"
+		"@typescript-eslint/eslint-plugin": "^4.7.0",
+		"@typescript-eslint/parser": "^4.7.0",
+		"eslint-config-prettier": "^6.15.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-prefer-arrow": "^1.2.2",
+		"eslint-plugin-react": "^7.21.5",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-unicorn": "^23.0.0"
 	},
 	"devDependencies": {
 		"@hoishin/prettierrc": "^2.1.1",
-		"@hoishin/tsconfig": "^2.0.0",
-		"@types/eslint": "^6.8.1",
-		"@types/node": "12",
-		"@types/react": "^16.9.35",
-		"del": "^5.1.0",
-		"eslint": "^7.1.0",
-		"eslint-find-rules": "^3.5.0",
-		"husky": "^4.2.5",
-		"lint-staged": "^10.2.8",
+		"@hoishin/tsconfig": "^2.1.0",
+		"@types/eslint": "^7.2.4",
+		"@types/node": "14.14.7",
+		"@types/react": "^16.9.56",
+		"del": "^6.0.0",
+		"eslint": "^7.13.0",
+		"eslint-find-rules": "^3.6.1",
+		"husky": "^4.3.0",
+		"lint-staged": "^10.5.1",
 		"npm-run-all": "^4.1.5",
-		"prettier": "^2.0.5",
-		"react": "^16.11.0",
-		"sort-package-json": "^1.44.0",
-		"standard-version": "^8.0.0",
+		"prettier": "^2.1.2",
+		"react": "^17.0.1",
+		"sort-package-json": "^1.46.1",
+		"standard-version": "^9.0.0",
 		"typescript": "4.0.5"
 	},
 	"peerDependencies": {

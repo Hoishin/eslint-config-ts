@@ -53,5 +53,11 @@ module.exports = {
 		'unicorn/prefer-set-has': 2,
 		'unicorn/prefer-trim-start-end': 2,
 		'unicorn/string-content': 0,
+		'unicorn/import-style': 2,
+		'unicorn/no-object-as-default-parameter': 2,
+		'unicorn/numeric-separators-style': 2,
+		'unicorn/prefer-array-find': 2,
+		'unicorn/prefer-math-trunc': 2,
+		'unicorn/prefer-ternary': 2,
 	},
 };

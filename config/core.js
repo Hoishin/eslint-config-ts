@@ -16,7 +16,7 @@ module.exports = {
 		'default-case-last': 2,
 		'default-param-last': 2,
 		'dot-location': 0,
-		'dot-notation': 0,
+		'dot-notation': 2,
 		eqeqeq: 2,
 		'for-direction': 0,
 		'func-name-matching': 2,
@@ -204,5 +204,8 @@ module.exports = {
 		'no-useless-backreference': 0,
 		indent: 0,
 		'func-call-spacing': 0,
+		'id-denylist': 0,
+		'no-promise-executor-return': 2,
+		'no-unreachable-loop': 2,
 	},
 };
