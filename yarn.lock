@@ -125,10 +125,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@hoishin/prettierrc@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@hoishin/prettierrc/-/prettierrc-2.1.1.tgz#adebd54c4968842689b51f9fc1a981ba3a57adad"
-  integrity sha512-E4MT/dLaRhS8zEBZwFNIOd7OB24npiizdEh0ISogQZh9Ldw4zFnWtpOt3hXt/ruKM9eG/N56mj5dF4cQW+jhsw==
+"@hoishin/prettierrc@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@hoishin/prettierrc/-/prettierrc-2.2.0.tgz#95c51bee4da38f7387440219cdab9b69c320b33d"
+  integrity sha512-EIKKBI95fZd7g/2xUh34jbH56/sXSc69ly6rJdPzuXwbPFQHrIrkxp20ZPMBjiSeDrgS8DmphfPa9WBouR1EQA==
 
 "@hoishin/tsconfig@2.1.0":
   version "2.1.0"
@@ -3613,6 +3613,11 @@ tsconfig-paths@^3.9.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
+
+tslib@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
+  integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"

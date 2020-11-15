@@ -1,17 +1,17 @@
 module.exports = {
 	extends: [
-		'./config/core.js',
-		'./config/import.js',
-		'./config/unicorn.js',
-		'prettier',
-		'prettier/unicorn',
+		"./config/core.js",
+		"./config/import.js",
+		"./config/unicorn.js",
+		"prettier",
+		"prettier/unicorn",
 	],
 	parserOptions: {
 		ecmaVersion: 2020,
-		sourceType: 'module',
+		sourceType: "module",
 	},
-	plugins: ['prefer-arrow'],
+	plugins: ["prefer-arrow"],
 	rules: {
-		'prefer-arrow/prefer-arrow-functions': 2,
+		"prefer-arrow/prefer-arrow-functions": 2,
 	},
 };
