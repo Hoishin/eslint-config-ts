@@ -207,5 +207,6 @@ module.exports = {
 		"id-denylist": 0,
 		"no-promise-executor-return": 2,
 		"no-unreachable-loop": 2,
+		"no-nonoctal-decimal-escape": 2,
 	},
 };
