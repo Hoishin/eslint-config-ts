@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.4.1...v0.4.2) (2020-11-21)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to v4.8.0 ([#221](https://github.com/Hoishin/eslint-config-hoishin/issues/221)) ([d2e71d2](https://github.com/Hoishin/eslint-config-hoishin/commit/d2e71d2487601b23931ab2481ab426c86c8ac6dc))
+- **deps:** update typescript-eslint monorepo to v4.8.1 ([#222](https://github.com/Hoishin/eslint-config-hoishin/issues/222)) ([5198b6b](https://github.com/Hoishin/eslint-config-hoishin/commit/5198b6b0ed6665f91bcbd320eb0d927dd5913298))
+
 ### [0.4.1](https://github.com/Hoishin/eslint-config-hoishin/compare/v0.4.0...v0.4.1) (2020-11-13)
 
 ### Bug Fixes
