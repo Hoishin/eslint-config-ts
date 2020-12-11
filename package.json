@@ -55,7 +55,7 @@
 		"@hoishin/prettierrc": "2.2.0",
 		"@hoishin/tsconfig": "2.1.0",
 		"@types/eslint": "7.2.5",
-		"@types/node": "14.14.9",
+		"@types/node": "14.14.12",
 		"@types/react": "17.0.0",
 		"del": "6.0.0",
 		"eslint": "7.14.0",
